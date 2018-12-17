@@ -1,13 +1,10 @@
 function btnSubmit() {
-	
-	var fname = document.getElementById("first-name").value;
-	var fres = fname.charAt(0);
-	
-	
-	var lname = document.getElementById("last-name").value;
-	var lres = lname.charAt(0);
-	
-	document.getElementById("fn").innerHTML = fres;
-	document.getElementById("ln").innerHTML = lres;
+	 var name = document.getElementById("first-name").value;
+     var initial = name.charAt(0).toUpperCase();
+     var icon = "svg-alphabet/" + initial + ".svg";
+      
+     document.getElementById("lettering").src = icon;
+     
+     alert("Thanks for signing up!");
 }
 

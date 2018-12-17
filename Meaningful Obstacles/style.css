@@ -1,0 +1,18 @@
+#bar-item:hover {
+	opacity: 0.2;
+}
+
+#bar-item2:hover {
+	opacity: 0.2;
+}
+
+#bar-item3:hover {
+	opacity: 0.2;
+}
+
+/* input styling */
+#ex1, #ex2, #ex3 {
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+}
